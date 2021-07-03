@@ -14,34 +14,65 @@ div.first {
    
 }
 
+.login:hover{
+  opacity: 0.6;
+  box-shadow: 1px 1px #888888;
+  height:25px;
+  width: 70px;
+  
+}
+
 .login{
-      float: left;
-      text-decoration: none;
-      background: rgba(24, 255, 3, 0.6);
-      padding: 10px 20px;
-      border-radius: 40%;
-      font-size: 20px;
-      color: white;
-      break-after: auto;
+  float: left;
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(30, 255, 0, 0.658);
+  padding: 10px 20px;
+  border-radius: 40%;
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  transition-property:width,height;
+  transition-duration: 1s;
+
      
   }
-  .login:hover{
-      opacity: 0.6;
-      box-shadow: 1px 1px #888888;
-      
-  }
+  
   .SignUp:hover{
     opacity: 0.6;
     box-shadow: 1px 1px #888888;
+    height:25px;
+    width: 70px;
+
+    
 }
   .SignUp{
     float: left;
+    width: 60px;
+    height: 25px;
+    text-align: center;
     text-decoration: none;
     background: rgba(255, 17, 0, 0.658);
     padding: 10px 20px;
     border-radius: 40%;
     font-size: 20px;
-    break-after: auto;
     margin-left: 10px;
     color: white;
+    transition-property:width,height;
+    transition-duration: 1s;
+  
   }
+.div1{
+  float: left;
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(83, 247, 7);
+  transition-property: width, height;
+  transition-duration: 2s;
+}
+.div1:hover{
+  width:200px;
+}
